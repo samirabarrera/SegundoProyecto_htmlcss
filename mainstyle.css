@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.menu1 #main-navbar {
+    background-color: antiquewhite /*ponerle color a la navbar*/
+}
+
+.menu1 h2#standblog {
+    padding: 10%;
+    display: flex;
+    align-content: center; 
+}
+
+#main-navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*configuración del carrousel*/
+.menu2 .carrousel .carousel-item {
+    border: 1px solid black;
+    position: relative;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
